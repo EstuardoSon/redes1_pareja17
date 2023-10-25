@@ -10,6 +10,8 @@
 - **Estuardo Gabriel Son Mux – 202003894**
 - **Angel Eduardo Marroquín Canizales – 202003959**
 
+![Topologia](Topologia.png)
+
 ## **Tablas de Redes**
 ### **Sede Central**
 | Red | Subred | Rango Usable | Hosts disponibles | Máscara de subred | Gateway | VLAN |
@@ -31,7 +33,7 @@
 ### **Red Entre R y Routers C**
 | Red | Subred | Hosts disponibles |  Rango Usable | Máscara de subred |
 |-----|--------|-------------------|---------------|-------------------|
-| 172.117.2.0 /29 | - | 172.117.2.1 - 172.117.2.6 | 6 | 255.255.255.248 |
+| 172.117.0.0 /29 | - | 172.117.0.1 - 172.117.0.6 | 6 | 255.255.255.248 |
  
 ### **Red Entre Routers C y Core**
 | Red | Subred | Hosts disponibles |  Rango Usable | Máscara de subred |
